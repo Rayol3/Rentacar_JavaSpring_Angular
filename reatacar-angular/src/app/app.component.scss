@@ -1,0 +1,26 @@
+.custom-navbar {
+  background-color: #343a40;
+  padding: 0 20px;
+
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px; /* Establece una altura mínima para que la barra de navegación no colapse */
+  }
+}
+
+.navbar-title a {
+  color: white !important;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+
+  a {
+    color: white !important;
+  }
+}
